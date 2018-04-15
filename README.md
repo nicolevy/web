@@ -2,4 +2,4 @@
 
 ## Contents
 
-Repo to show source files and dependencies
+Repo to showcase react components and css used for my site.
