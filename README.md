@@ -1,4 +1,4 @@
-### nicolevy.ca
+# nicolevy.ca
 
 ## Table of Contents
 
