@@ -1,0 +1,50 @@
+.app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer {
+    height: 5vh;
+    flex-shrink: 999999;
+}
+
+/* clock display */
+.stopwatch-frame {
+    background-image: url('images/stopped.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 306px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5vh;
+}
+
+#time-display {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 28pt;
+    letter-spacing: -5px;
+    color: #353535;
+    padding-top: 50px;
+    padding-right: 3px;
+}
+
+/* buttons */
+.tray-button {
+    border: none;
+    border-radius: 30px;
+    background-color: #FF9F34;
+    margin: 5px;
+    padding: 15px 30px 16px 30px;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 15pt;
+    color: #2E2E2E;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    outline-style: none;
+}

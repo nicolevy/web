@@ -1,0 +1,13 @@
+.project-tray {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 5vw;
+}
+
+@media (max-width:960px) {
+    .project-tray {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

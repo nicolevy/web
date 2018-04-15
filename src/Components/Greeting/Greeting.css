@@ -1,0 +1,66 @@
+.greeting-page {
+    width: 100vw;
+    height: 100vh;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    width: 70%;
+    padding-bottom: 5vh;
+}
+
+/* fade-in */
+@keyframes text-fade {
+    from {opacity: 0;}
+    to {opacity:1;}
+}
+
+.fade-in {
+    opacity: 0;
+    animation-name: text-fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    font-size: 20pt;
+    margin-top: 0;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.first {
+    font-size: 40pt;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: -1.5px;
+}
+
+.second {
+    animation-delay: 0.5s;
+    font-size: 28pt;
+    color: #222;
+    margin-left: -0.2px;
+}
+
+.third {
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+@keyframes arrow-fade {
+    from {opacity:0;}
+    to {opacity:0.1;}
+}
+
+.scroll-prompt {
+    transform: scaleY(-0.7);
+    margin-bottom: 5px;
+    opacity: 0;
+    animation-name: arrow-fade;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+/* fade-in end */
