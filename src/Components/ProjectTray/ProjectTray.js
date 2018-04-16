@@ -38,6 +38,6 @@ const stopwatchCard = {
 
 const webCard = {
     title: 'nicolevy.ca',
-    desc: 'Website build with react, css animations, and css grid. Served with npm serve',
+    desc: 'Website build with react, using keyframe animations and css grid. Running on debian server using node and nginx to serve the site.',
     repo: 'web',
 };
