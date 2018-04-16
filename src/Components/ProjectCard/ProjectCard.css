@@ -25,3 +25,13 @@ h2 {
 .link-tray a:nth-child(2) {
     margin-left: 50px;
 }
+
+.action-link-text:before {
+    content: "Check it out in action";
+}
+
+@media (max-width: 600px) {
+    .action-link-text:before {
+        content: "In action";
+    }
+}

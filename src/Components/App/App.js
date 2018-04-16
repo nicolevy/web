@@ -5,6 +5,9 @@ import Greeting from '../Greeting/Greeting';
 import ProjectTray from '../ProjectTray/ProjectTray';
 
 class App extends Component {
+    componentDidMount() {
+        document.title = 'Nicole Levy';
+    }
     render() {
         return (
             <div>

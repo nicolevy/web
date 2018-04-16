@@ -9,9 +9,9 @@ class ProjectCard extends Component {
         const repoLink = `https://github.com/nicolevy/${this.props.card.repo}`;
         let actionAnchor;
         this.props.card.link
-            ? (this.props.card.link.includes('https://') || this.props.card.link.includes('http://')
-                ? actionAnchor = <a href={this.props.card.link}>Check it out in action</a>
-                : actionAnchor = <NavLink to={this.props.card.link}>Check it out in action</NavLink>)
+            ? (this.props.card.link.includes('://')
+                ? actionAnchor = <a href={this.props.card.link}><span className="action-link-text"></span></a>
+                : actionAnchor = <NavLink to={this.props.card.link}><span className="action-link-text"></span></NavLink>)
             : actionAnchor = '';
 
         return (
